@@ -1,0 +1,44 @@
+.table-container {
+    width: 100%;
+    margin-left: 300px;
+    border-collapse: collapse;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+  }
+  
+  .details-row {
+    background-color: #f9f9f9;
+  }
+  
+  .details-image {
+    max-width: 100px;
+    margin-right: 10px;
+    float: left;
+  }
+  
+  .details-row p {
+    margin: 0;
+    padding: 10px 0;
+  }
+  
+  @media (max-width: 600px) {
+    .details-image {
+      float: none;
+      display: block;
+      margin: 0 auto;
+    }
+  }

@@ -1,0 +1,21 @@
+.content {
+  width: 90%;
+  padding: 20px;
+  padding-left:550px;
+  color: black;
+}
+
+.content h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.main-image {
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+
+.image-caption {
+  margin-bottom: 20px;
+  font-style: italic;
+}
